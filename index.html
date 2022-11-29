@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Prestech</title>
+</head>
+<body>
+  <header>
+    <section class="logo">
+      <img src="./assets/prestech-logo-white.svg" height="70px" width="70px">
+      <span>restech</span>
+      
+    </section>
+    <nav class="navegacao">
+      <div class="nav-item"><a href="#sobre">Sobre</a></div>
+      <div class="nav-item"><a href="#servicos">Serviços</a></div>
+      <div class="nav-item"><a href="#contato">Contato</a></div>
+    </nav>
+  </header>
+  <main>
+    <section id="sobre" class="hero">
+        <aside class="sobre">
+          <h2>Prestech Brasil</h2>
+          <p>A Prestech é uma consultoria que surgiu em Setembro de 2017 com dois amigos que possuiam vasta experiência no mundo da programação, um, Victor com experiência em desenvolvimento Full-Stack nas linguagens Javascript,Typescript, utilizando diversos Frameworks Javascripts. O Outro Gabriel com vasta experiência em Dev-ops utilizando principalmente a Cloud da Amazon, a AWS, mas com experiências sólidas em Azure, Google Cloud, Digital Ocean entre outros.</p>
+        </aside>
+        <aside class="carrossel">
+          <img class="c-item" src="./assets/LogoAws.png" height="300px" width="80%">
+          <img class="c-item" src="./assets/AzureLogo.png" height="300px" width="80%">
+          <img class="c-item" src="./assets/GoogleCloudLogo.png" height="300px" width="80%">
+          <img class="c-item" src="./assets/AngularLogo.png" height="300px" width="80%">
+          <img class="c-item" src="./assets/ReactLogo.png" height="300px" width="80%">
+          <img class="c-item" src="./assets/NestJsLogo.png" height="300px" width="80%">
+        </aside>
+    </section>
+
+    <section id="servicos" class="servicos">
+      <h3>Serviços</h3>
+      <div class="card-group">
+        <div class="card" >
+          <img src="./assets/database.svg" height="70px" width="70px" onclick="OpenDialog('bdDescription')">
+          <h3 class="card-titulo" onclick="OpenDialog('bdDescription')">Banco de dados</h3>
+          <div id="bdDescription" class="card-description not-show" onclick="CloseDialog('bdDescription')">
+            <p>Utilização de bancos de dados SQL e também bancos de dados NoSQL, além de utilizar estes, é feito uma análise do projeto de sua empresa para melhor escolher o banco de dados ideal para performar suas aplicações</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/layout-text-window.svg" height="70px" width="70px" onclick="OpenDialog('frontend')">
+          <h3 class="card-titulo" onclick="OpenDialog('frontend')">Desenvolvimento Frontend</h3>
+          <div id="frontend" class="card-description not-show" onclick="CloseDialog('frontend')">
+            <p>Utilizamos diversos frameworks para criar seu site de maneira otimizada, performática, responsiva e de fácil entendimento do usuário</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/cloud-fill.svg" height="70px" width="70px" onclick="OpenDialog('devOps')">
+          <h3 class="card-titulo" onclick="OpenDialog('devOps')">Dev-ops</h3>
+          <div id="devOps" class="card-description not-show" onclick="CloseDialog('devOps')">
+            <p>Utilizamos a Cloud para armazenar seu site e suas apis, fazendo o gerenciamento e também analizando a performance da Cloud para que assim possar otimizar os custos o máximo possível, trabalhamos principalmente com as nuvens: AWS, Azure e Google Cloud</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/bar-chart-fill.svg" height="70px" width="70px" onclick="OpenDialog('analiseDados')">
+          <h3 class="card-titulo" onclick="OpenDialog('analiseDados')">Análise de dados</h3>
+          <div id="analiseDados" class="card-description not-show" onclick="CloseDialog('analiseDados')">
+            <p>Fazemos também análise de dados utilizando principalmente as linguagens R e Python, além de utilização de business intelligence para impulsionar o seu negócio</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/person-bounding-box.svg" height="70px" width="70px" onclick="OpenDialog('treinamentos')">
+          <h3 class="card-titulo" onclick="OpenDialog('treinamentos')">Treinamentos</h3>
+          <div id="treinamentos" class="card-description not-show" onclick="CloseDialog('treinamentos')">
+            <p>Realizamos o treinamento de pessoal da empresa para que estes possam utilizar o sistema de forma correta, ou também possam dar manutenção no sistema</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/patch-check-fill.svg" height="70px" width="70px" onclick="OpenDialog('consultoria')">
+          <h3 class="card-titulo" onclick="OpenDialog('consultoria')">Consultoria</h3>
+          <div id="consultoria" class="card-description not-show" onclick="CloseDialog('consultoria')">
+            <p>Realizamos consultoria para verificar possiveis melhorias em seu sistema e/ou melhores práticas em segurança dentre outros.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/briefcase-fill.svg" height="70px" width="70px" onclick="OpenDialog('certificacoes')">
+          <h3 class="card-titulo" onclick="OpenDialog('certificacoes')">Certificações</h3>
+          <div id="certificacoes" class="card-description not-show" onclick="CloseDialog('certificacoes')">
+            <p>Temos parceira com diversos orgãos certificadores e também realizamos certificações para as principáis nuveis disponíveis</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/bookmark-check-fill.svg" height="70px" width="70px">
+          <h3 class="card-titulo">Certificados</h3>
+          <div id="certificados" class="card-description not-show" onclick="CloseDialog('certificados')">
+            <p>Damos cursos sobre diversas tecnologias com certificados válidos</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="contato">
+    <div class="endereco">
+      <h3>Endereço</h3>
+      Endereço: Rua Maringá<br>
+      Bairro: Bela Vista<br>
+      Cidade: Pindamonhangaba<br>
+      Estado: MG
+    </div>
+    <div class="email">
+      <h3>Contatos</h3>
+      Email: Prestech@emailTeste.com<br>
+      Telefone: (21) 3333-44444<br>
+      Celular: (33) 9999-88888<br>
+    </div>
+    <div class="horario">
+      <h3>Horários</h3>
+      Seg. 8:00 às 18:00<br>
+      Ter. 8:00 às 18:00<br>
+      Qua. 8:00 às 18:00<br>
+      Qui. 8:00 às 18:00<br>
+      Sex. 8:00 às 18:00<br>
+    </div>
+  </footer>
+
+
+
+<script type="text/javascript" src="./index.js" ></script>  
+</body>
+</html>
