@@ -1,5 +1,6 @@
 ## Projeto Desenvolvido para a avaliação da matéria Projeto de Modelagem de sistemas de Software do Professor Daniel, para o segundo semestre da universidade Nove de Julhos campos Barra Funda
 ### Integrantes do grupo
+_____________________________________________________
 - Cleber Sousa RA: 922102567
 - Diogo de lira RA: 922102049
 - Douglas Muniz Silva RA: 922104082
@@ -11,3 +12,8 @@
 - Victor Eduardo Alcantara Oriente RA: 922107454
 - Wegines Alves Cardoso RA: 922102357
 - William Roberto Bezerra RA: 922101189
+
+
+### Link do Projeto
+______________________________________________________________
+Link: https://scintillating-basbousa-583925.netlify.app/
