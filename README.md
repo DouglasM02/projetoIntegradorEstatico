@@ -1,4 +1,4 @@
-## Projeto Desenvolvido para a avaliação da matéria Projeto de Modelagem de sistemas de Software do Professor Daniel, para o segundo semestre da universidade Nove de Julhos campos Barra Funda
+## Projeto Desenvolvido para a avaliação da matéria Projeto de Modelagem de sistemas de Software do Professor Daniel, para o segundo semestre da universidade Nove de Julho campus Barra Funda
 ### Integrantes do grupo
 _____________________________________________________
 - Cleber Sousa RA: 922102567
